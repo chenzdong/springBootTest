@@ -18,4 +18,9 @@ public class RabbitConfig {
     public Queue Queue(){
         return  new Queue("hi");
     }
+
+    @Bean
+    public Queue MultiQueue(){
+        return new Queue("multiHi");
+    }
 }

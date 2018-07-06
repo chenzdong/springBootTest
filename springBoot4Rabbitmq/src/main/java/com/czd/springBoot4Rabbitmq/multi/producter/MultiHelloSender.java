@@ -1,4 +1,4 @@
-package com.czd.springBoot4Rabbitmq.producter;
+package com.czd.springBoot4Rabbitmq.multi.producter;
 
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,13 +13,13 @@ import java.util.Date;
  * @create: 2018/7/5 16:02
  */
 @Component
-public class HelloSender {
+public class MultiHelloSender {
     @Autowired
     private AmqpTemplate rabbitTemplate;
 
-    public void send(){
-        String context="hello"+new Date();
-        System.out.println("sender: "+context);
-        this.rabbitTemplate.convertAndSend("hi",context);
+    public void send(int i){
+        String context="i am "+i+" hello "+new Date();
+//        System.out.println(i+" sender: "+context);
+        this.rabbitTemplate.convertAndSend("multiHi",context);
     }
 }
