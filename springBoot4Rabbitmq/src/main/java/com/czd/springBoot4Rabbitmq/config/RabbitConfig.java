@@ -23,4 +23,9 @@ public class RabbitConfig {
     public Queue MultiQueue(){
         return new Queue("multiHi");
     }
+
+    @Bean
+    public Queue EntityQueue(){
+        return new Queue("entity");
+    }
 }
