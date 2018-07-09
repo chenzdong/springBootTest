@@ -7,3 +7,5 @@
 - 2018/07/06 springBoot4Rabbitmq:
    multi:单生产者多消费者
    entity:发送实体
+- 2018/07/09 springBoot4Jpa
+  demo:基础jpa的使用
