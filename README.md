@@ -8,4 +8,6 @@
    multi:单生产者多消费者
    entity:发送实体
 - 2018/07/09 springBoot4Jpa
-  demo:基础jpa的使用
+   demo:基础jpa的使用
+- 2018/07/16 springBoot4Thymeleaf
+   demo:thymeleaf的基本使用
