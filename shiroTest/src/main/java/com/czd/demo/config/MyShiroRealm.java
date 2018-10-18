@@ -13,6 +13,7 @@ import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
 
 /**
  * shiro realm配置
@@ -22,6 +23,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  */
 public class MyShiroRealm extends AuthorizingRealm {
     @Autowired
+    @Lazy
     private ILoginService loginService;
 
     /**
