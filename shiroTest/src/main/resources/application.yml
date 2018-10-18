@@ -1,0 +1,33 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/shiro?useUnicode=true&amp;characterEncoding=UTF-8
+    username: root
+    password: czd123
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+      enabled: true
+  redis:
+    database: 1
+    host: 115.29.242.87
+    port: 6479
+    password:      # 密码（默认为空）
+    timeout: 6000  # 连接超时时长（毫秒）
+    pool:
+      max-active: 1000  # 连接池最大连接数（使用负值表示没有限制）
+      max-wait: -1      # 连接池最大阻塞等待时间（使用负值表示没有限制）
+      max-idle: 10      # 连接池中的最大空闲连接
+      min-idle: 5
