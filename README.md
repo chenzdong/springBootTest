@@ -11,3 +11,5 @@
    demo:基础jpa的使用
 - 2018/07/16 springBoot4Thymeleaf
    demo:thymeleaf的基本使用
+- 2018/10/18 shiroTest
+   demo:shiro 在 springboot中的基本使用 下一阶段加入rememberMe与redis cache功能
