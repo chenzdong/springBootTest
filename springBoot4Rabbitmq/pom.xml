@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.czd</groupId>
-	<artifactId>springBoot4Rabbitmq</artifactId>
+	<artifactId>spring-boot-test-rabbitmq</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springBoot4Rabbitmq</name>
+	<name>SpringBoot4Rabbitmq</name>
 	<description>Rabbitmq for Spring Boot</description>
 
 	<parent>

@@ -19,7 +19,7 @@ public class PersonController {
     private PersonRepository personRepository;
 
     @PostMapping(path="addPerson")
-    public  void addPerson(Person person){
+    public void addPerson(Person person){
         personRepository.save(person);
     }
     @DeleteMapping(path = "deletePerson")

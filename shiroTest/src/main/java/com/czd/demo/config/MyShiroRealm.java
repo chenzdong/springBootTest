@@ -1,9 +1,9 @@
 package com.czd.demo.config;
 
-import com.czd.demo.service.ILoginService;
 import com.czd.demo.domain.Permission;
 import com.czd.demo.domain.Role;
 import com.czd.demo.domain.User;
+import com.czd.demo.service.ILoginService;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
