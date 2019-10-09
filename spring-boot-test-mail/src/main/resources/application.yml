@@ -1,0 +1,19 @@
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 960013453@qq.com
+    password: ulcudvernwqzbbeg
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+  freemarker:
+    content-type: text/html
+    suffix: .ftl
+    template-loader-path: classpath:/templates
+    charset: UTF-8
+    check-template-location: true
